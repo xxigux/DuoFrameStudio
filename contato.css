@@ -1,0 +1,73 @@
+/* Estilos CSS */
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1e1e1e;
+    color: #ffffff;
+}
+header {
+    background-color: #1e1e1e;
+    padding: 20px;
+    text-align: center;
+}
+nav {
+    text-align: center;
+    padding: 10px;
+}
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+nav a:hover {
+    color: #cccccc;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.contact-section {
+    background-color: #1e1e1e;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.contact-section h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+.contact-section p {
+    font-size: 20px;
+    line-height: 1.6;
+    margin-bottom: 40px;
+}
+
+.contact-info {
+    text-align: center;
+}
+
+.contact-info p, .contact-info a {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+.contact-info a:hover {
+    color: #cccccc;
+}
+
+footer {
+    background-color: #1e1e1e;
+    padding: 100px;
+    text-align: center;
+    width: 90%;
+    clear: both;
+}

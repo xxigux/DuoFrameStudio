@@ -1,0 +1,62 @@
+/* Estilos CSS */
+body {
+    font-family: Arial, sans-serif; /* Alterando a fonte para Arial */
+    margin: 0;
+    padding: 0;
+    background-color: #000000; /* Alterando a cor de fundo para preto */
+    color: #ffffff;
+}
+header {
+    background-color: #000000;
+    padding: 20px;
+    text-align: center;
+}
+nav {
+    text-align: center;
+    padding: 10px;
+}
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+nav a:hover {
+    color: #cccccc;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.company-text {
+    background-color: #000000; /* Alterando o fundo da seção */
+    padding: 90px 60px;
+    text-align: center;
+    position: relative; /* Permitindo a posição absoluta do logo */
+    overflow: hidden; /* Esconder o overflow para que a imagem de fundo não vaze */
+}
+
+.company-text h2 {
+    font-size: 36px; /* Aumentando o tamanho da fonte do título */
+    margin-bottom: 20px;
+}
+
+.company-text p {
+    font-size: 18px; /* Aumentando o tamanho da fonte do texto */
+    line-height: 1.6;
+    margin-bottom: 0px;
+    color: #ffffff; /* Definindo a cor do texto como branco */
+}
+
+.company-logo {
+    position: absolute;
+    top: 300px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 230px; /* Ajuste conforme necessário */
+    opacity: 0.1; /* Opacidade reduzida para que o texto seja legível */
+}
